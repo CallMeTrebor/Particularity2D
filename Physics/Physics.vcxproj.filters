@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{e531b330-c59a-4696-b2d6-01224f026bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Objects">
+      <UniqueIdentifier>{fe3ad447-b1b9-41e1-8a34-218076a31a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{77336bb0-7c92-42ec-b814-53cc482bfb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Objects">
+      <UniqueIdentifier>{4076e5f0-5278-467e-aec8-c0a89b7fca8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{1ad1e8b4-c6d9-4ce8-ace7-31baac137aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{eb3d4a75-966f-45c0-892e-dad02dcf81e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Objects">
+      <UniqueIdentifier>{add4b544-1065-4936-9d65-03735745eb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Events">
+      <UniqueIdentifier>{bef20f30-6aa9-4d23-989a-881f1a2906d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Influences">
+      <UniqueIdentifier>{5fae1e9a-80cc-4c61-a6de-8aee25dddef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Infuences">
+      <UniqueIdentifier>{ef7ad233-f4cf-4f67-9b0c-12bb89d5b0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Objects">
+      <UniqueIdentifier>{284f99f5-8dce-409f-b44e-752b4a13c3cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsPixel.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPosition.hpp">
+      <Filter>Header Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsRect.hpp">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsRect.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderablePixel.hpp">
+      <Filter>Header Files\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIResponse.hpp">
+      <Filter>Header Files\UI\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Bucket.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObject.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalInfluence.hpp">
+      <Filter>Header Files\Engine\Influences</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravity.cpp">
+      <Filter>Source Files\Engine\Infuences</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityWell.cpp">
+      <Filter>Source Files\Engine\Infuences</Filter>
+    </ClCompile>
+    <ClCompile Include="Force.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsProps.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableArrow.cpp">
+      <Filter>Source Files\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderablePixel.cpp">
+      <Filter>Source Files\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableRect.cpp">
+      <Filter>Source Files\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableState.cpp">
+      <Filter>Source Files\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticRect.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.hpp">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject.hpp">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.hpp">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsPixel.hpp">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeQueue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.hpp">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Force.hpp">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsProps.hpp">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.hpp">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableArrow.hpp">
+      <Filter>Header Files\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableObject.hpp">
+      <Filter>Header Files\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableRect.hpp">
+      <Filter>Header Files\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableState.hpp">
+      <Filter>Header Files\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRequest.hpp">
+      <Filter>Header Files\UI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Bucket.hpp">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalInfluence.hpp">
+      <Filter>Header Files\Engine\Influences</Filter>
+    </ClInclude>
+    <ClInclude Include="Influence.hpp">
+      <Filter>Header Files\Engine\Influences</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravity.hpp">
+      <Filter>Header Files\Engine\Influences</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityWell.hpp">
+      <Filter>Header Files\Engine\Influences</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.hpp">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticRect.hpp">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsCircle.hpp">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
