@@ -8,7 +8,8 @@
 - [License](#license)
 
 ## Summary
-A 2D physics engine made with sdl2 for rendering and a custom backend made in C++. The project is highly WIP with more changes to come, once I do have the time because, keep in mind, this is just a passion project.
+A 2D physics engine made with sdl2 for rendering and a custom backend made in C++. The project is highly WIP with more changes to come.
+[Watch the short collision demo video here](https://www.youtube.com/watch?v=336V9bp5sd8)
 
 ## Usage
 Upon entry the user is dropped straight into a simulation with randomly generated reactangles, that have an associated mass. The reactangles are physics objects which can collide and transfer energy between eachother.
