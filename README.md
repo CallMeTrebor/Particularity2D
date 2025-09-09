@@ -1,5 +1,9 @@
 # Particularity2D
 
+## Note
+
+**Development has been halted.** SDL3 has become available, and the project could benefit from a rewrite; therefore, for the time being, I will no longer be involved in its development. However, I might revisit a physics engine with the experience I have gathered in the meantime.
+
 ## Table of Contents
 - [Summary](#summary)
 - [Contributing](#contributing)
